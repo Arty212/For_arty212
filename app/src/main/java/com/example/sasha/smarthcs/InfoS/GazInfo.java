@@ -44,7 +44,7 @@ public class GazInfo extends AppCompatActivity {
 
         TextView resource = findViewById(R.id.resource_g);
         resource.setTextSize(27);
-        resource.setText("Потрачено"+":"+" "+(String.valueOf((int)((Integer.valueOf(MainActivity.GSV.get(0))/MainActivity.gas_ideal))) +" " +"м³"));
+        resource.setText("Израсходовано"+":"+" "+(String.valueOf((int)((Integer.valueOf(MainActivity.GSV.get(0))/MainActivity.gas_ideal))) +" " +"м³"));
         TextView sum = findViewById(R.id.sum_g);
         sum.setTextSize(27);
         sum.setText(MainActivity.GSV.get(0)+" "+"Рублей");

@@ -30,11 +30,9 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 
 public class MainActivity extends AppCompatActivity {
-   public static ArrayList<Card> history = new ArrayList<>();
     static ArrayList<Card> cards = new ArrayList<>();
     public static ArrayList<String> GSV = new ArrayList<>();
 
-    static ArrayList<User> user_base = new ArrayList<>();
     public static Retrofit retrofit;
     public static int index = 0;
     public static double gas_ideal = 9.22;
@@ -43,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
 
     public static String LOCAL = "http://192.168.1.9:5000/";
     public static String LOGIN;
-    public static ArrayList<String> arrayList =new ArrayList<>();
     public static String year="2019";
     public static String year_pre="2018";
 
