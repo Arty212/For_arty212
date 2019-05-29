@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     public static double water_ideal = 44.56;
     public static double light_ideal = 6.67;
 
-    public static String LOCAL = "http://192.168.1.8:5000/";
+    public static String LOCAL = "http://192.168.1.9:5000/";
     public static String LOGIN;
     public static ArrayList<String> arrayList =new ArrayList<>();
     public static String year="2019";
